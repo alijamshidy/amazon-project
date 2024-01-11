@@ -7,7 +7,7 @@ export default function checkoutItems() {
   });
   document.querySelector(
     ".js-return-to-home-link"
-  ).innerHTML = `<a class="return-to-home-link js-return-to-home-link" href="amazon.html">
+  ).innerHTML = `<a class="return-to-home-link js-return-to-home-link" href="index.html">
     &nbsp;${cartQuantity}
     </a>`;
 }
